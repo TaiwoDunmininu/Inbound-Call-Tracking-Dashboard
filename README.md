@@ -6,6 +6,7 @@
 - [Features](#features)
 - [Tools](#tools)
 - [Step-by-Step Process](#step-by-step-process)
+- [Dashboard](#dashboard)
 
 ### Project Overview
 
@@ -43,14 +44,14 @@ Automated Google Sheets system to track and analyze inbound call data for market
 - Dashboard – visual KPIs
 #### Mapped out data flow between sheets
 
-### 2. Automating Data Input
+#### 2. Automating Data Input
 
 - Created Google Form for call agents to submit data daily
 - Connected Form responses to Daily Call Data tab
 - Used data validation for consistent entries
 
 
-### 3. Formula-Based Logic
+#### 3. Formula-Based Logic
 
 - Applied QUERY and ARRAYFORMULA to pull data by date, campaign, and client
 - Auto-calculated:
@@ -60,17 +61,22 @@ Automated Google Sheets system to track and analyze inbound call data for market
 - Used VLOOKUP for rate/client lookups from Settings tab
 
   
-### 4. Dashboard CreationBuilt a visual dashboard using:
+#### 4. Dashboard CreationBuilt a visual dashboard using:
 
 - Bar charts (Calls by Campaign)
 - Line charts (Daily Trends)
 - Scorecards (Total Revenue, Total Profit, ROI)
+
 - Enabled dynamic filtering (by Client or Date Range)
 
-### 5. Testing & Optimization
+#### 5. Testing & Optimization
 
 - Ran dummy data through the form and sheets
 - Debugged formula errors and ensured dynamic updates
 - Optimized layout and conditional formatting for clarity
 
 
+
+### Dashboard
+
+![Inbound project](https://github.com/user-attachments/assets/3ca914b8-ba11-4afa-898d-3f23d2990889)
